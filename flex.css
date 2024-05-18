@@ -1,0 +1,73 @@
+.box {
+  background-color: rgb(45, 45, 45);
+  height: fit-content;
+  width: fit-content;
+  padding: 8px 24px 18px 24px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover {
+  background-color: rgb(35, 35, 35);
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin-block: 12px;
+
+  position: relative;
+}
+
+.light {
+  width: 100px;
+  height: 100px;
+
+  box-sizing: border-box;
+  border-radius: 100%;
+  border-color: hsla(0, 0%, 0%, 0.207);
+  border-width: 6px;
+  border-style: solid;
+
+  position: absolute;
+  top: 10px;
+}
+
+.lightTop {
+  background-color: red;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.subDivTop {
+  background-color: rgb(253, 103, 103);
+  width: 100%;
+  height: 50%;
+}
+
+.lightCentre {
+  background-color: gold;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: end;
+}
+.subDivCentre {
+  background-color: rgb(254, 239, 154);
+  width: 50%;
+  height: 50%;
+}
+
+.lightBottom {
+  background-color: green;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.subDivBottom {
+  background-color: rgb(39, 167, 39);
+  width: 50%;
+  height: 50%;
+}
